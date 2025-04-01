@@ -23,11 +23,11 @@ This script retrieves all VMware clouds available in Morpheus, fetches all hosts
 
 
 <h4>Configuration</h4>
-<ul><li>Update API credentials for Morpheus in the script.</li>
-
-<li>Modify threshold values as needed.</li>
-
-<li>Configure email settings for notifications. </li>
+<ul><li>Create Cypher entry in  Morpheus for vcenter user and password.Line 10-14. </li>
+<li>Configure email settings for notifications. Line 58 -63 </li>
 </ul>
 
-Output
+<h4>Output</h4>
+<ul><li>The script generates a tabular report showing cloud- and host-level statistics </li>
+<li>Email Notification is sent if resource usage exceeds predefined thresholds </li>
+</ul>
