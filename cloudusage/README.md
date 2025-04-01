@@ -2,7 +2,7 @@
 Overview
 This script retrieves all VMware clouds available in Morpheus, fetches all hosts within each cloud, and calculates resource usage statistics. The results are then presented in a tabular format.
 
-<h4>Features </h4>h
+<h4>Features </h4>
 <ul>
 <li>Fetches all VMware clouds from Morpheus</li>
 
