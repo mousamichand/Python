@@ -20,3 +20,14 @@ This script retrieves all VMware clouds available in Morpheus, fetches all hosts
 
 <li>Triggers email notifications if resource usage exceeds predefined thresholds</li>
 </ul>
+
+
+<h4>Configuration</h4>
+<ul><li>Update API credentials for Morpheus in the script.</li>
+
+<li>Modify threshold values as needed.</li>
+
+<li>Configure email settings for notifications. </li>
+</ul>
+
+Output
