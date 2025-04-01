@@ -1,4 +1,4 @@
-<h3>VMware Cloud Monitoring Script</h3>
+<h3>VMware Cloud Usage Script</h3>
 Overview
 This script retrieves all VMware clouds available in Morpheus, fetches all hosts within each cloud, and calculates resource usage statistics. The results are then presented in a tabular format.
 
