@@ -7,10 +7,10 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def apiHeader(url):
  
-  #token=morpheus['morpheus']['apiAccessToken'] 
-  token ="0d32fd88-a635-4cd5-8da6-afb5e3afc9ff"
-  applianceUrl= "https://10.32.20.128/"
- # applianceUrl = morpheus['morpheus']['applianceUrl']
+  token=morpheus['morpheus']['apiAccessToken'] 
+  
+  
+ applianceUrl = morpheus['morpheus']['applianceUrl']
   url =    applianceUrl + url
   headers = {"Content-Type":"application/json","Accept":"application/json","Authorization": "BEARER " + (token)}
   response = requests.get(url,headers=headers,verify=False)
