@@ -1,4 +1,4 @@
-This script fetches cloud-level statistics, including:
+This script fetches cloud-level statistics for vmware cloud, including:
 <ol>
 <li>Storage Usage</li>
 <li>CPU Usage</li>
