@@ -1,14 +1,14 @@
 from asyncio.windows_events import NULL
 import requests
 # define vars for API
-host="10.32.23.97"
-token="c77605e3-f303-4d64-911c-818b12f12b6b"
+host="10.32.23.6666"
+token="xxxxxx-911c-818b12f12b6b"
 headers = {"Content-Type":"application/json","Accept":"application/json","Authorization": "BEARER " + (token)}
 def listDatastores():
-    url = "https://10.32.21.180/rest/vcenter/datastore"
+    url = "https://10.32.21.xx/rest/vcenter/datastore"
     payload={}
     headers = {
-  'Cookie': 'vmware-api-session-id=312cb11a403e9603e85b07222100c366'
+  'Cookie': 'xxxx'
     }
     response = requests.request("GET", url, headers=headers, data=payload,verify=False)
     data=response.json()
