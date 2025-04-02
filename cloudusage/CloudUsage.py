@@ -15,7 +15,8 @@ vcenteruser=str(c.get("secret/vcenteruser"))
 print(vcenteruser)
 vcenterpassword=str(c.get("secret/vcenterpassword"))
 print(vcenterpassword)
-
+vcenterhost=str(c.get("secret/vcenterhost"))
+print(vcenterhost)
 #define vars for API
 
 morphhost=morpheus['morpheus']['applianceHost']
@@ -28,7 +29,7 @@ token=morpheus['morpheus']['apiAccessToken']
 context = ssl._create_unverified_context()
 
 # Connect to vCenter or ESXi server
-si = SmartConnect(host="vcenter01.prod.dc2.den.morpheusdata.com", user=vcenteruser, pwd=vcenterpassword, sslContext=context)
+si = SmartConnect(host=vcenterhost, user=vcenteruser, pwd=vcenterpassword, sslContext=context)
 
 # Retrieve content from the vCenter or ESXi server
 content = si.RetrieveContent()
