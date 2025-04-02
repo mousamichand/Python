@@ -23,7 +23,7 @@ This script retrieves all VMware clouds available in Morpheus, fetches all hosts
 
 
 <h4>Configuration</h4>
-<ul><li>Create Cypher entry in  Morpheus for vcenter user and password.Line 10-14. </li>
+<ul><li>Create Cypher entry in  Morpheus for vcenter user and password.Line 14 and 16. </li>
 <li>Configure email settings for notifications. Line 58 -63 </li>
 </ul>
 
